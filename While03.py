@@ -6,5 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    if not (s.isdigit() and s.alpha()):
-     return s
+    s=0
+    a=0
+    while a<=len(s):
+          if not s[a].isdigit() and not s[a].isalpha():
+            s+=1
+    
+    return (s[a])
