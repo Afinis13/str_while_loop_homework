@@ -6,4 +6,7 @@ def main(s):
     Returns:
         int: return answer
     """
-    return (s.alpha())
+    while s:
+        if (s.alpha()):
+            s+=1
+    return s
