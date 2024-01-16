@@ -6,8 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    while s:
-        if (s.isupper()):
+    s=0
+    a=0
+    while a<=len(s):
+          if s[a].isupper():
             s+=1
-    return s
+            a+=1
+    return 
     
