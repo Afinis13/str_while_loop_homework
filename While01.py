@@ -7,6 +7,6 @@ def main(s):
         int: return answer
     """
     while s:
-        if (s.digit()):
+        if (s.isdigit()):
             s+=1
     return s
