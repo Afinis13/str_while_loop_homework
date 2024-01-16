@@ -7,6 +7,6 @@ def main(s):
         int: return answer
     """
     while s:
-        if (s.alpha()):
+        if (s.isalpha()):
             s+=1
     return s
