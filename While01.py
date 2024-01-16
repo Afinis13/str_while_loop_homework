@@ -12,4 +12,4 @@ def main(s):
           if  s[a].isdigit():
             s+=1
             a+=1
-    return s
+    return 
