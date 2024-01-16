@@ -6,4 +6,7 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    while s:
+        if (s.islower()):
+            s+=1
+    return s
