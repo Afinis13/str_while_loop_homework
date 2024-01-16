@@ -11,5 +11,5 @@ def main(s):
     while a<=len(s):
           if not s[a].isdigit() and not s[a].isalpha():
             s+=1
-    
-    return (s[a])
+            a+=1
+    return s
