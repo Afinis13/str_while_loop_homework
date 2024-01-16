@@ -6,4 +6,8 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    while s:
+        if (s.isupper()):
+            s+=1
+    return s
+    
