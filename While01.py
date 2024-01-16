@@ -6,4 +6,7 @@ def main(s):
     Returns:
         int: return answer
     """
-    return (s.digit())
+    while s:
+        if (s.digit()):
+            s+=1
+    return s
